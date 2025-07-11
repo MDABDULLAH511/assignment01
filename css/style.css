@@ -150,6 +150,63 @@ nav h2 {
     color: var(--text-color);
 }
 
+/* Testimonials part CSS Start */
+.testimonials {
+    padding: 120px 0;
+    text-align: center;
+}
+
+.review-items {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    text-align: start;
+}
+
+.review-item-box {
+    padding: 25px;
+    border-radius: 15px;
+    border: 1px solid #F2EDED;
+    background-color: #ffffff80;
+}
+
+.review-item-box h3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--primary-color);
+    margin: 20px 0 10px 0;
+}
+
+.review-item-box p {
+    color: var(--text-color);
+}
+
+.client {
+    margin-top: 24px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 15px;
+}
+
+.client img {
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+}
+
+.client-info h4 {
+    font-weight: 700;
+    color: var(--text-color);
+    margin-bottom: 5px;
+}
+
+.client-info p {
+    font-weight: 400;
+    color: var(--text-color);
+}
+
 /* Footer Part CSS */
 footer {
     background-color: #ffffff;
