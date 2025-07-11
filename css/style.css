@@ -207,6 +207,98 @@ nav h2 {
     color: var(--text-color);
 }
 
+/* Focus part CSS Start */
+.focus {
+    padding: 70px 140px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+.focus .btn {
+    margin-bottom: 22px;
+}
+
+.focus img {
+    border-radius: 50px;
+}
+
+/* Contact Part CSS */
+.contact {
+    padding: 150px 0 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-text {
+    width: 500px;
+}
+
+.contact-text h2 {
+    font-size: 90px;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.contact-form {
+    width: 500px;
+}
+
+.contact-form label {
+    font-size: 18px;
+    color: var(--primary-color);
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 10px;
+    display: block;
+    width: 100%;
+}
+
+.contact-form input {
+    font-size: 20px;
+    padding: 20px 30px;
+    border-radius: 10px;
+    border: 1px solid #D6DDED;
+    color: var(--text-color);
+    font-family: "Inter", sans-serif;
+    margin-bottom: 20px;
+    outline: none;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.contact-form textarea {
+    font-size: 20px;
+    padding: 20px 30px;
+    border-radius: 10px;
+    border: 1px solid #D6DDED;
+    color: var(--text-color);
+    font-family: "Inter", sans-serif;
+    margin-bottom: 20px;
+    outline: none;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.contact-form input[type="submit"] {
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 10px;
+    padding: 20px auto;
+    border: none;
+    color: var(--secondary-color);
+    background-color: var(--accent-color);
+    transition: .5s all ease-in-out;
+    cursor: pointer;
+    margin-bottom: 0px;
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: #0074ff;
+    transform: scale(1.02);
+}
+
 /* Footer Part CSS */
 footer {
     background-color: #ffffff;
