@@ -99,6 +99,57 @@ nav h2 {
 }
 
 
+/* Action part CSS Start */
+.action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 220px;
+    padding: 120px 0;
+
+}
+
+.action-image img {
+    border-radius: 50px;
+    width: 400px;
+    height: 325px;
+}
+
+/* Users part CSS Start */
+
+.users-content {
+    text-align: center;
+    padding: 50px 140px;
+    border-radius: 50px;
+    background-color: rgba(78, 71, 255, 0.1);
+}
+
+.users-content h2 {
+    font-size: 38px;
+    font-weight: 700;
+    color: var(--primary-color);
+    margin-bottom: 40px;
+}
+
+.users-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.users-item h2 {
+    font-size: 80px;
+    font-weight: 700;
+    margin-bottom: 0px;
+    color: var(--accent-color);
+    font-family: "Inter", sans-serif;
+
+}
+
+.users-item p {
+    font-size: 20px;
+    color: var(--text-color);
+}
+
 /* Footer Part CSS */
 footer {
     background-color: #ffffff;
